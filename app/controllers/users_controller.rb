@@ -6,6 +6,6 @@ class UsersController < ApplicationController
   end
 
   def index
-    @user = User.find(params[:id])
+    @user = Users.find(params[:id])
   end
 end
