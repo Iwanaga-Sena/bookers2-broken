@@ -14,7 +14,11 @@
  *= require_self
  */
 
- .navlink i {
+i {
     display: inline-block;
     margin-right: 5px;
-  }
+}
+
+.bookers span{
+    font-weight: bold;
+}
