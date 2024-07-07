@@ -56,7 +56,7 @@
                             <%= @book.opinion %>
                         </td>
                         <td>
-                            <%= link_to "Edit", book_edit_path(@book.id), class: "btn btn-success" %>
+                            <%= link_to "Edit", edit_book_path(@book.id), class: "btn btn-success" %>
                         </td>
                         <td>
                             <%= link_to "Destroy", book_path(@book.id), class:"btn btn-danger", method: delete %>
