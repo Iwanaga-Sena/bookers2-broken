@@ -13,6 +13,11 @@
                     <td><%= @user.introduction %></td>
                 </tr>
             </table>
+            <div class="row">
+                <%= link_to edit_user_path, class: 'btn btn-outline-secondary btn-block' do %>
+                    <i class="fa-solid fa-user-gear"></i>
+                <% end %>
+            </div>
         </div>
 
         <div class="offset-md-1 col-md-8">
